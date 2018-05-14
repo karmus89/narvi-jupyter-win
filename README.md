@@ -48,9 +48,9 @@ Open up an SSH connection with the ``narvi-nb``:
 	
 The first thing is to get the Jupyter Notebook running in a computing node:
 
-	source activate env
 	screen
 	source getNode.sh
+	source activate env
 	export XDG_RUNTIME_DIR=""
 	jupyter notebook --no-browser --port=8888
 	
